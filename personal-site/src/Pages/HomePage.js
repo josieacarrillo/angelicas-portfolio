@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from '../Components/Footer'
+import Branding from '../Components/Home/Branding'
 
 
 class HomePage extends React.Component{
     render(){
         return (
-            <div>
-                <h1> Home Page! </h1>
+            <div >
+                <Branding />
                 <Footer />
             </div>
         )
