@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Components/Footer'
+
 
 
 class ContactPage extends React.Component{
@@ -7,7 +7,6 @@ class ContactPage extends React.Component{
         return (
             <div>
                 <h1> Contact Me ! </h1>
-                <Footer />
             </div>
         )
     }
